@@ -1,0 +1,36 @@
+*{
+    font-family: Helvetica;
+}
+header{
+    height: 300px;
+    width: 1000px;
+    margin: 80px 100px 10px 200px;
+    background-image: url("/assets/image1.jpg");
+    background-position: center;
+    background-size:cover;
+}
+#title{
+    margin: 15px 5px 5px 15px;
+    font-size:50px;
+    color: yellow;
+    -webkit-text-stroke: 2px white;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    margin: 10px
+}
+#hockey1{
+    height: 100px;
+    width: 100px;
+    margin: 20px
+}
+#upcoming{
+    display:block;
+    background-color: black;
+    color: white;        
+    width: 1000px;    
+    margin: 5px 100px 10px 200px;
+    padding: 10px 5px 10px 5px;
+    text-align: center;    
+}
