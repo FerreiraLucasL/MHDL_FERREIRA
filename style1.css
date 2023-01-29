@@ -1,36 +1,72 @@
 *{
     font-family: Helvetica;
+    margin: 5px 5px 5px 5px;    
 }
-header{
-    height: 300px;
-    width: 1000px;
-    margin: 80px 100px 10px 200px;
+header{    
+    height: 400px;
+    width: 100%;    
+    margin: 0 0 10px 0;
     background-image: url("/assets/image1.jpg");
-    background-position: center;
-    background-size:cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+    border-radius: 10px;  
 }
-#title{
-    margin: 15px 5px 5px 15px;
-    font-size:50px;
+main{
+    margin-top: 10px;    
+    height: 300px;
+    width: 100%;
+}
+nav{    
+    height: 250px;
+    width: 20%;    
+}
+nav > a{
+    Display: block; 
+    height: 30%;
+    width: 200px;    
+    margin-top: 10px;
+    padding-top: 10px;    
+}
+#title{    
+    font-size:70px;
     color: yellow;
-    -webkit-text-stroke: 2px white;
+    -webkit-text-stroke: 3px black;
 }
-#logo{
-    height: 100px;
-    width: 100px;
-    margin: 10px
-}
-#hockey1{
-    height: 100px;
-    width: 100px;
-    margin: 20px
-}
-#upcoming{
-    display:block;
+.banner{    
     background-color: black;
     color: white;        
-    width: 1000px;    
-    margin: 5px 100px 10px 200px;
-    padding: 10px 5px 10px 5px;
-    text-align: center;    
+    width: 100%;    
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+#logo{
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+    position: absolute;    
+    top: 370px;
+    right: 150px;  
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    background-color: black;
+}
+#hockey1{    
+    height: 200px;
+    width: 200px;    
+    position: relative;
+    top: -230px;
+    left: 900px;
+    border-radius: 5px;
+}
+section{      
+    /*yo se que esto es un crimen pero no sabía como hacer que quede bien, espero las correcciones*/    
+    height: 250px;
+    width: 70%;
+    position:relative;
+    top: -240px;
+    left: 300px;    
 }

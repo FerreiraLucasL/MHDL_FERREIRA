@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../CV"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MHDL_FERREIRA"
+	}
+}
