@@ -54,19 +54,21 @@ nav > a{
     border-width: 2px;
     background-color: black;
 }
-#hockey1{    
+section{          
+    height: 250px;
+    width: 55%;
+    position:relative;
+    bottom: 240px;
+    left: 200px;    
+    font-size: 14px;
+}
+div{
     height: 200px;
     width: 200px;    
-    position: relative;
-    top: -230px;
-    left: 900px;
-    border-radius: 5px;
-}
-section{      
-    /*yo se que esto es un crimen pero no sabía como hacer que quede bien, espero las correcciones*/    
-    height: 250px;
-    width: 70%;
-    position:relative;
-    top: -240px;
-    left: 300px;    
+    position: absolute;
+    bottom: 15px;
+    left: 1200px;
+    border-radius: 10px;
+    background-image: url("/assets/hockey3.jpg");
+    background-size: 100% 100%;
 }
